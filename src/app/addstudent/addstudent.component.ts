@@ -18,7 +18,7 @@ import Swal from 'sweetalert2';
 })
 export class AddstudentComponent {
 
-  options: string[] = ['ECE', 'EEE', 'MECH', 'CIVIL', 'CSE', 'EIE'];
+  options: string[] = ['AWS', 'DATASCIENCE', 'NODEJS', 'DOTNET', 'AI', 'SQL'];
   selectedOptions: string[] = [];
 
   myForm: FormGroup;

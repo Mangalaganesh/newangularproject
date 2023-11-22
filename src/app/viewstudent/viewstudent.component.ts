@@ -31,7 +31,7 @@ export class ViewstudentComponent {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-       
+      // console.log("EDIT");
     });
 }
 

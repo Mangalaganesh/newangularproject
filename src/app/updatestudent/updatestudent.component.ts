@@ -88,7 +88,7 @@ export class UpdatestudentComponent implements OnInit{
           text: 'Your data has been updated successfully...',
           icon: 'success',
         });
-        // window.location.reload();
+         window.location.reload();
 
       }
 
